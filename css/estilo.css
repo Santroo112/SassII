@@ -1,0 +1,75 @@
+.col-lg-6 p {
+  font-size: 20px;
+  font-family: "tahoma";
+  font-weight: bold; }
+
+h1 {
+  color: blue; }
+
+p {
+  color: yellow;
+  font-size: 20px; }
+
+.texto {
+  background: linear-gradient(to bottom, black, yellow); }
+  .texto__encabezado {
+    color: yellow; }
+  .texto__parrafo {
+    font-size: 20px; }
+    .texto__parrafo--color {
+      color: blue; }
+      @media only screen and (max-width: 768px) {
+        .texto__parrafo--color {
+          color: yellow; } }
+
+.btn, .btn--aceptar, .btn--cancelar, .btn--nada {
+  width: 150px;
+  height: 50px;
+  border: 1px solid white;
+  border-radius: 50px;
+  color: black;
+  background-color: white;
+  text-align: center; }
+
+.btn--aceptar {
+  background-color: green;
+  color: white; }
+
+.btn--cancelar {
+  background-color: red;
+  color: white; }
+
+.btn--nada {
+  background-color: blue;
+  color: yellow; }
+
+.col-lg-6 p {
+  font-size: 20px;
+  font-family: "tahoma";
+  font-weight: bold; }
+
+h1 {
+  color: blue; }
+
+p {
+  color: yellow;
+  font-size: 20px; }
+
+.texto {
+  background: linear-gradient(to bottom, black, yellow); }
+  .texto__encabezado {
+    color: yellow; }
+  .texto__parrafo {
+    font-size: 20px; }
+    .texto__parrafo--color {
+      color: blue; }
+      @media only screen and (max-width: 768px) {
+        .texto__parrafo--color {
+          color: yellow; } }
+
+.col-lg-12, .col-xs-12, .col-lg-4, .container-fluid, .row {
+  padding: 0;
+  margin: 0; }
+
+.nav-link {
+  color: blue !important; }
